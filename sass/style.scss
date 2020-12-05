@@ -123,6 +123,7 @@ header{
 ****************************************************/
 .navbar {
     padding: 24px 0;
+
 }
 .navbar-light .navbar-nav .nav-link{
 	color:$commoncolor;
@@ -244,6 +245,7 @@ header{
             &::before{
             	@extend %position;
             	background-image: url(../img/bitcoin.png);
+            	background-position: center;
             	background-size: cover;
             	background-repeat: no-repeat;
             	opacity: 0;
@@ -1132,20 +1134,554 @@ footer{
 /*********bottom-footer****************/
 
 
+/********************************************************
+        meida query
+
+*********************************************************/
+
+@media (max-width: 1399px){
+  .expert-section .inner-expert .left {
+    left: 15%;
+}
+  .expert-section .inner-expert .right {
+    right: 15%;
+}
 
 
+}
 
-
+ @media (max-width: 1199px){
+ 	.banner-section .inner-banner h1 {
+    font-size: 42px;
+}
+.banner-section .inner-banner .marr {
+    margin: 25px 0;
+}
+  .expert-section .inner-expert .left {
+    left: 10%;
+}
+  .expert-section .inner-expert .right {
+    right: 10%;
+}
+footer .widget .social-link li {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
     
+}
+footer .widget .social-link li a i {
+    font-size: 15px;
+}
+.bottom-footer .inner-bottom ul li a {
+    font-size: 12px;
+    
+}
+.bottom-footer .inner-bottom p {
+    font-size: 10px;
+   
+}
+
+}
+   
+ @media (max-width: 991px){
+ .navbar-light .navbar-nav .nav-link {
+    display: inline-block;
+    
+}
+.d-flex {
+    justify-content: flex-end;
+    display: flex!important;
+}
+
+.inner-top .nav-link {
+    padding: .5rem 5px;
+}
+
+header span, .inner-top .nav li a {
+    font-size: 12px;
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.banner-section .inner-banner h1 {
+    font-size: 33px;
+}
+.banner-section .inner-banner .marr {
+    margin: 20px 0;
+}
+.banner-section .inner-banner h5 {
+    font-size: 16px;
+}
+
+.banner-section .inner-banner h4 {
+    font-size: 12px;
+}
+
+.banner-section .inner-banner .btn-custom {
+    font-size: 14px;
+ }
+
+.banner-section .inner-banner .btn-info, .services-section .btn-info {
+    font-size: 14px;
+ }
+.support-section {
+    padding: 30px 0;
+}
+.support-section .inner-support {
+    padding: 10px 8px;
+   
+}
+
+.support-section .inner-support img {
+    height: 50PX;
+   
+}
+.support-section .inner-support .card-body {
+    padding: 6px;
+}
+.support-section .inner-support .card-body .card-title {
+    font-size: 16px;
+   
+}
+
+.support-section .inner-support .card-body .card-title, .support-section .inner-support .card-body .card-text, .heading .inner-heading p, .services-section .inner-service .card-body .card-text, .simple-section .step p, .expert-section .inner-expert .expert-hand p, .person-section .inner-person h6, .person-section .inner-person strong, .consultation-section .form-control, .blog-section .inner-heading p, .blog-section .card .card-body .nav li span, .blog-section .card .card-body .nav li span a, .blog-section .card .card-text, .feedback-section .inner-feedback P, .feedback-section .slider .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+.heading {
+    padding: 0 0 35px;
+    
+}
+
+.heading .inner-heading::after {
+    bottom: 20px;
+    
+}
+.heading .inner-heading h2 {
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+.services-section .inner-service {
+    padding: 15px 0 20px;
+}
+.services-section .inner-service .card-body .card-title {
+    font-size: 16px;
+   
+}
+.services-section .btn-info {
+    margin-bottom: 35px;
+}
+
+.simple-section {
+    padding-top: 35px;
+}
+
+.simple-section .simple-img img:nth-child(1) {
+    max-width: 80%;
+}
+
+.simple-section .simple-img img:nth-child(2) {
+    bottom: 100px;
+    width: 150px;
+    
+}
+
+.simple-section .simple-title {
+    margin-bottom: 25px;
+}
+
+.simple-section .simple-title h2 {
+    font-size: 18px;
+    line-height: 28px;
+ }
+
+.simple-section .simple-title h2::after {
+    top: 63px;
+}
+
+.simple-section .step {
+    margin-bottom: 10px;
+}
+
+.simple-section .step span {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+   
+}
+
+.simple-section .step h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.amount-section {
+    padding: 30px 0;
+}
+
+.amount-section .inner-amount span {
+    font-size: 35px;
+
+}
+.amount-section .inner-amount h5 {
+    font-size: 15px;
+}
+
+.expert-section .inner-expert img {
+    padding: 60px;
+    max-width: 350px;
+}
+
+.person-section .inner-person h6 {
+    margin-top: 9px;
+}
+
+.consultation-section {
+    padding: 25px 0;
+}
+
+.consultation-section .title {
+    margin-bottom: 40px;
+}
+
+.consultation-section .title h2 {
+    font-size: 20px;
+}
+
+.consultation-section .btn-custom {
+    padding: 10px 0px;
+    max-width: 118px;
+    margin-top: 10px;
+}
+.blog-section {
+    padding: 30px 0;
+   
+}
+
+.blog-section .inner-heading {
+    margin-bottom: 30px;
+}
+
+.blog-section .inner-heading h2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
+}
+
+.blog-section .inner-heading::after {
+    top: 20%;
+    background: #f78f2f; 
+}
+
+.blog-section .card .card-body .nav li a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    transform: translateY(-30px);
+}
+
+.blog-section .card .card-body .nav li span {
+   
+    font-size: 10px;
+    padding: 0 5px;
+    line-height: 0;
+    display: contents;
+}
+
+.blog-section .card .card-body .nav li span a {
+   
+    font-size: 10px;
+    
+}
+.blog-section .card-body {
+    
+    padding: 0.5rem;
+}
+
+.blog-section .card .card-title {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: -15px;
+}
+
+.feedback-section .inner-feedback h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.feedback-section .slider {
+    padding: 30px 0;
+}
+
+footer {
+    padding: 35px 0;
+    
+}
+footer .widget .social-link li {
+    width: 35px;
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    margin: auto;
+    text-align: center;
+}
+.widget .img-fluid {
+    max-width: 70%;
+    
+}
+
+footer .widget p {
+    font-size: 12px;
+    margin: 15px 0 12px;
+  
+}
+
+footer .widget h4 {
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+footer .widget h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30px;
+  }
+
+footer .widget ul li a {
+    font-size: 12px;
+    
+}
+
+
+footer .widget ul li a i {
+    margin: 0;
+}
+
+footer .widget ul li span {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    line-height: 20px;
+}
+
+footer .widget form .form-control {
+    font-size: 12px;
+   
+}
+
+
+footer .widget form a i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+ 
+}
+
+.bottom-footer .inner-bottom ul li a {
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+.bottom-footer {
+    padding: 10px 0;
+}
+
+
+
+ }
+
+
+
+@media (max-width: 767px){
+.banner-section .inner-banner h1 {
+    font-size: 23px;
+}
+
+.banner-section .inner-banner .marr {
+    margin: 5px 0;
+}
+
+.banner-section .inner-banner h5 {
+    font-size: 14px;
+}
+
+.banner-section .inner-banner .btn-custom {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.banner-section .inner-banner .btn-info, .services-section .btn-info {
+    font-size: 12px;
+    padding: 5px 7px;
+}
 
 
 
 
 
+.support-section {
+    padding: 20px 0;
+}
+
+.support-section .inner-support {
+    padding: 40px 10px;
+    margin-top: 25px;
+}
+
+.services-section .inner-service {
+    padding: 0;
+}
+.simple-section .simple-img img:nth-child(2) {
+    bottom: 180px;
+    width: 200px;
+   
+}
+
+.simple-section .simple-title {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.simple-section .simple-title h2::after {
+   
+    left: 75px;
+    top: 35px;
+}
+
+.expert-section {
+    padding: 22px 0;
+}
+.expert-section .inner-expert .left {
+    left: 0%;
+}
+.expert-section .inner-expert .right {
+    right: 0%;
+}
+
+.blog-section .inner-heading::after {
+    top: 7%;
+    transform: translate(-50%, -6%);
+    
+}
+
+.blog-section .card {
+    margin: 10px 50px;
+}
+
+footer .widget {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .widget h4::after {
+ 
+    left:50%;
+    top: 35px;
+    transform: translate(-50%, -35%);
+
+}
+
+footer .widget .nav {
+    justify-content: center;
+}
+
+.bottom-footer .inner-bottom p {
+    text-align: center;
+}
+
+footer .widget .social-link li {
+    margin: 5px;
+
+}
 
 
 
 
+}
+
+
+@media (max-width: 575px){
+
+.banner-section .inner-banner .marr {
+    display: none;
+}
+
+
+.support-section .inner-support {
+    padding: 40px 10px;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+.services-section .inner-service {
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    display: block;
+}
+.simple-section .step span {
+    margin-left: 40px;
+}
+
+.expert-section .inner-expert img {
+    padding: 75px;
+    max-width: 288px;
+}
+.feedback-section .inner-feedback P {
+    max-width: 400px;
+}
+
+footer .widget p {
+    max-width: 250px;
+    margin: auto;
+}
+footer .widget .form-control {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+footer .widget form a i {
+   
+   display: none;
+    
+}
+
+footer {
+    padding: 15px 0 0;
+}
+
+ 
+
+.inner-bottom .justify-content-end {
+    justify-content: center!important;
+}
+.bottom-footer .inner-bottom ul li a {
+    font-size: 10px;
+    
+}
+
+.simple-section .simple-title h2::after {
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+}
+header span, .inner-top .nav li a {
+    font-size: 10px;
+}
+
+
+
+}
 
 
 
